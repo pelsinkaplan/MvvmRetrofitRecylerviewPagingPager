@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/viewPagerFragment"
+        android:icon="@android:drawable/presence_invisible"
+        android:title="Pelşin" />
+    <item
+        android:id="@+id/pagingFragment"
+        android:icon="@android:drawable/presence_online"
+        android:title="Gülşah" />
+
+</menu>
