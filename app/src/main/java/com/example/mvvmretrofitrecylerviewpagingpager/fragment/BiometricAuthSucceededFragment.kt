@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.mvvmretrofitrecylerviewpagingpager.R
 
-class PagingFragment : Fragment() {
+class BiometricAuthSucceededFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +19,7 @@ class PagingFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_paging, container, false)
+        return inflater.inflate(R.layout.fragment_biometric_auth_succeeded, container, false)
     }
 
 }

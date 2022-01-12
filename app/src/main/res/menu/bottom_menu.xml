@@ -9,5 +9,9 @@
         android:id="@+id/pagingFragment"
         android:icon="@android:drawable/presence_online"
         android:title="Gülşah" />
+    <item
+        android:id="@+id/biometricAuthFragment"
+        android:icon="@android:drawable/presence_online"
+        android:title="Touch ID" />
 
 </menu>

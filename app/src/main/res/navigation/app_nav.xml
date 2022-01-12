@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_viewPagerFragment_to_pagingFragment"
             app:destination="@id/pagingFragment" />
+        <action
+            android:id="@+id/action_viewPagerFragment_to_biometricAuthFragment"
+            app:destination="@id/biometricAuthFragment" />
     </fragment>
     <fragment
         android:id="@+id/pagingFragment"
@@ -22,5 +25,31 @@
         <action
             android:id="@+id/action_pagingFragment_to_viewPagerFragment"
             app:destination="@id/viewPagerFragment" />
+        <action
+            android:id="@+id/action_pagingFragment_to_biometricAuthFragment"
+            app:destination="@id/biometricAuthFragment" />
+        <action
+            android:id="@+id/action_pagingFragment_to_viewPagerFragment2"
+            app:destination="@id/viewPagerFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/biometricAuthFragment"
+        android:name="com.example.mvvmretrofitrecylerviewpagingpager.fragment.BiometricAuthFragment"
+        android:label="fragment_biometric_auth"
+        tools:layout="@layout/fragment_biometric_auth" >
+        <action
+            android:id="@+id/action_biometricAuthFragment_to_biometricAuthSucceededFragment"
+            app:destination="@id/biometricAuthSucceededFragment" />
+        <action
+            android:id="@+id/action_biometricAuthFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+        <action
+            android:id="@+id/action_biometricAuthFragment_to_pagingFragment"
+            app:destination="@id/pagingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/biometricAuthSucceededFragment"
+        android:name="com.example.mvvmretrofitrecylerviewpagingpager.fragment.BiometricAuthSucceededFragment"
+        android:label="fragment_biometric_auth_succeeded"
+        tools:layout="@layout/fragment_biometric_auth_succeeded" />
 </navigation>
